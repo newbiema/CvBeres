@@ -1,6 +1,7 @@
 import { useEffect } from 'react'
-import { ArrowRight, FileCheck2 } from 'lucide-react'
+import { ArrowRight, Coffee, FileCheck2 } from 'lucide-react'
 import { Link } from 'react-router-dom'
+
 
 function HomePage() {
   useEffect(() => {
@@ -42,6 +43,33 @@ function HomePage() {
           <span aria-hidden="true">·</span> Siap PDF
         </p>
       </main>
+
+      <footer className="px-6 py-6 text-center text-sm text-muted">
+        <div className="flex flex-wrap items-center justify-center gap-x-2 gap-y-1">
+          <span>Created by</span>
+
+          <a
+            href="https://github.com/newbiema"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="font-semibold underline underline-offset-4 focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-ink"
+          >
+            @evan
+          </a>
+
+          <span aria-hidden="true">·</span>
+
+          <a
+            href="https://sociabuzz.com/evaan19"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-1 font-semibold underline underline-offset-4 focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-ink"
+          >
+            <Coffee className="size-4" strokeWidth={1.8} aria-hidden="true" />
+            Traktir kopi
+          </a>
+        </div>
+      </footer>
     </div>
   )
 }
