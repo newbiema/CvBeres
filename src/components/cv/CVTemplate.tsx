@@ -114,18 +114,18 @@ export function CVTemplate({ cv }: CVTemplateProps) {
           </header>
 
           {cv.summary && (
-            <section className="cv-section mt-3">
+            <section className="cv-section mt-3 break-words">
               <h2 className="border-b border-neutral-500 pb-0.5 text-[0.72rem] leading-tight font-bold uppercase">
                 {text.professionalSummary}
               </h2>
-              <p className="mt-1.5 whitespace-pre-line text-justify text-[0.72rem] leading-[1.4]">
+              <p className="mt-1.5 whitespace-pre-line  text-justify text-[0.72rem] leading-[1.4]">
                 {cv.summary}
               </p>
             </section>
           )}
 
           {skills.length > 0 && (
-            <section className="cv-section mt-3">
+            <section className="cv-section mt-3 break-words">
               <h2 className="border-b border-neutral-500 pb-0.5 text-[0.72rem] leading-tight font-bold uppercase">
                 {text.technicalSkills}
               </h2>
@@ -136,7 +136,7 @@ export function CVTemplate({ cv }: CVTemplateProps) {
           )}
 
           {experiences.length > 0 && (
-            <section className="cv-section mt-3">
+            <section className="cv-section break-words mt-3">
               <h2 className="border-b border-neutral-500 pb-0.5 text-[0.72rem] leading-tight font-bold uppercase">
                 {text.professionalExperience}
               </h2>
@@ -171,7 +171,7 @@ export function CVTemplate({ cv }: CVTemplateProps) {
           )}
 
           {projects.length > 0 && (
-            <section className="cv-section mt-3">
+            <section className="cv-section mt-3 break-words">
               <h2 className="border-b border-neutral-500 pb-0.5 text-[0.72rem] leading-tight font-bold uppercase">
                 {text.projects}
               </h2>
@@ -213,7 +213,7 @@ export function CVTemplate({ cv }: CVTemplateProps) {
           )}
 
           {education.length > 0 && (
-            <section className="cv-section mt-3">
+            <section className="cv-section mt-3 break-words">
               <h2 className="border-b border-neutral-500 pb-0.5 text-[0.72rem] leading-tight font-bold uppercase">
                 {text.education}
               </h2>
