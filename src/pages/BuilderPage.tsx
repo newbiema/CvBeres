@@ -61,10 +61,10 @@ function BuilderContent() {
           <div>
             <Link
               to="/"
-              className="inline-flex items-center gap-2 rounded-sm text-lg font-semibold tracking-tight focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-ink"
+            className="inline-flex items-center gap-2 rounded-sm text-xs text-muted font-nanum tracking-tight focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-ink"
             >
               <FileCheck2 className="size-5" strokeWidth={1.8} aria-hidden="true" />
-              CV Beres
+              cvberes.site
             </Link>
             <p className="mt-1 flex items-center gap-1.5 text-xs text-muted">
               <Save className="size-3" strokeWidth={1.8} aria-hidden="true" />

@@ -13,10 +13,10 @@ function HomePage() {
       <header className="mx-auto flex w-full max-w-7xl items-center px-6 py-6">
         <Link
           to="/"
-          className="inline-flex items-center gap-2 rounded-sm text-lg font-semibold tracking-tight focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-ink"
+          className="inline-flex items-center gap-2 rounded-sm text-xs text-muted font-nanum tracking-tight focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-ink"
         >
           <FileCheck2 className="size-5" strokeWidth={1.8} aria-hidden="true" />
-          CV Beres
+          cvberes.site
         </Link>
       </header>
 
@@ -24,8 +24,8 @@ function HomePage() {
         <p className="mb-5 text-sm font-semibold tracking-[0.16em] text-muted uppercase">
           CV profesional, tanpa ribet
         </p>
-        <h1 className="max-w-2xl text-[clamp(2.5rem,5vw,4rem)] leading-[1.05] font-bold tracking-[-0.04em]">
-          Bikin CV. Beres.
+        <h1 className="max-w-2xl text-[clamp(2.5rem,5vw,4rem)] leading-[1.05] font-bold font-nanum tracking-[-0.04em]">
+          cvberes.site
         </h1>
         <p className="mt-6 max-w-xl text-base leading-7 text-muted sm:text-lg">
           Buat CV profesional dan ramah ATS secara gratis. Tanpa login,
