@@ -24,7 +24,7 @@ function HomePage() {
         <p className="mb-5 text-sm font-semibold tracking-[0.16em] text-muted uppercase">
           CV profesional, tanpa ribet
         </p>
-        <h1 className="max-w-2xl text-[clamp(2.5rem,5vw,4rem)] leading-[1.05] font-bold font-nanum tracking-[-0.04em]">
+        <h1 className="max-w-2xl text-7xl font-extrabold font-nanum tracking-[-0.04em]">
           cvberes.site
         </h1>
         <p className="mt-6 max-w-xl text-base leading-7 text-muted sm:text-lg">

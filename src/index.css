@@ -11,7 +11,7 @@
   --color-error: #dc2626;
   --color-warning: #ca8a04;
   --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
-  --font-nanum: "Nanum Brush Script", cursive;
+  --font-nanum: "Nanum Brush Script";
 }
 
 :root {
