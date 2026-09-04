@@ -21,7 +21,7 @@ function HomePage() {
       <header className="mx-auto flex w-full max-w-7xl items-center px-6 py-6">
         <Link
           to="/"
-          className="inline-flex items-center gap-2 rounded-sm text-xs text-muted font-nanum tracking-tight focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-ink"
+          className="inline-flex items-center gap-2 rounded-sm text-xs text-muted font-sans tracking-tight focus-visible:outline-2 focus-visible:outline-offset-4 focus-visible:outline-ink"
         >
           <FileCheck2 className="size-5" strokeWidth={1.8} aria-hidden="true" />
           cvberes.site
