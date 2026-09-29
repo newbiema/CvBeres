@@ -23,7 +23,7 @@ export function SkillsSection() {
   return (
     <EditorSection
       title="Keahlian"
-      description="Tambahkan keahlian teknis atau profesional satu per satu."
+      description="Tambahkan kemampuan yang relevan satu per satu."
       icon={Wrench}
     >
       <form onSubmit={handleSubmit} className="flex items-end gap-2">
@@ -34,7 +34,7 @@ export function SkillsSection() {
             value={skill}
             onChange={(event) => setSkill(event.target.value)}
             maxLength={50}
-            placeholder="Contoh: TypeScript"
+            placeholder="Contoh: Komunikasi"
             className="mt-2 w-full rounded-lg border border-line bg-surface px-3 py-2.5 text-sm text-ink outline-none transition-colors duration-200 placeholder:text-muted/70 focus:border-ink focus:ring-2 focus:ring-ink/10 "
           />
         </label>

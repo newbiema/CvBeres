@@ -53,7 +53,7 @@ export function ProjectsSection() {
                 />
                 <InputField
                   id={`project-url-${project.id}`}
-                  label="URL"
+                  label="Tautan (opsional)"
                   value={project.url}
                   onChange={(url) => updateProject(project.id, { url })}
                   placeholder="project.com"
@@ -61,12 +61,12 @@ export function ProjectsSection() {
                 <div className="sm:col-span-2">
                   <InputField
                     id={`project-technologies-${project.id}`}
-                    label="Teknologi"
+                    label="Keahlian atau alat yang digunakan"
                     value={project.technologies}
                     onChange={(technologies) =>
                       updateProject(project.id, { technologies })
                     }
-                    placeholder="Contoh: React, TypeScript, Tailwind CSS"
+                    placeholder="Contoh: Komunikasi, Microsoft Excel, Canva"
                   />
                 </div>
                 <div className="sm:col-span-2">

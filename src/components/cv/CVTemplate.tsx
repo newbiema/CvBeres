@@ -129,9 +129,13 @@ export function CVTemplate({ cv }: CVTemplateProps) {
               <h2 className="border-b border-neutral-500 pb-0.5 text-[0.72rem] leading-tight font-bold uppercase">
                 {text.technicalSkills}
               </h2>
-              <p className="mt-1.5 text-justify text-[0.72rem] leading-[1.4]">
-                {skills.join(', ')}
-              </p>
+              <ul className="mt-1.5 list-disc space-y-0.5 pl-4 text-[0.72rem] leading-[1.4]">
+                {skills.map((skill, index) => (
+                  <li key={`${skill}-${index}`} className="pl-0.5">
+                    {skill}
+                  </li>
+                ))}
+              </ul>
             </section>
           )}
 

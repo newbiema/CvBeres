@@ -126,13 +126,16 @@ export async function createCVDocxBlob(cv: CVData) {
 
   if (skills.length > 0) {
     addSectionHeading(text.technicalSkills)
-    paragraphs.push(
-      new Paragraph({
-        children: [bodyRun(skills.join(', '))],
-        alignment: AlignmentType.JUSTIFIED,
-        spacing: { after: 50, line: 240 },
-      }),
-    )
+    skills.forEach((skill) => {
+      paragraphs.push(
+        new Paragraph({
+          children: [bodyRun(skill)],
+          bullet: { level: 0 },
+          spacing: { after: 30, line: 240 },
+          indent: { left: 360, hanging: 180 },
+        }),
+      )
+    })
   }
 
   if (experiences.length > 0) {

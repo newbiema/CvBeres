@@ -57,7 +57,7 @@ export function ExperienceSection() {
                   onChange={(position) =>
                     updateExperience(experience.id, { position })
                   }
-                  placeholder="Contoh: Frontend Developer"
+                  placeholder="Contoh: Staf Administrasi"
                 />
                 <InputField
                   id={`experience-company-${experience.id}`}

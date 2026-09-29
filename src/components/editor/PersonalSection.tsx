@@ -28,7 +28,7 @@ export function PersonalSection() {
           label="Posisi profesional"
           value={personal.professionalTitle}
           onChange={(professionalTitle) => updatePersonal({ professionalTitle })}
-          placeholder="Contoh: Frontend Developer"
+          placeholder="Contoh: Staf Administrasi"
         />
         <InputField
           id="email"
@@ -65,14 +65,14 @@ export function PersonalSection() {
         />
         <InputField
           id="github"
-          label="GitHub"
+          label="Profil atau portofolio"
           value={personal.github}
           onChange={(github) => updatePersonal({ github })}
-          placeholder="github.com/username"
+          placeholder="contoh.com/profil"
         />
         <InputField
           id="website"
-          label="Website"
+          label="Website atau portofolio"
           value={personal.website}
           onChange={(website) => updatePersonal({ website })}
           placeholder="portfolio.com"
